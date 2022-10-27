@@ -6,6 +6,7 @@
         "black": "#0d0f18",
         "dark_gray": "#11131c",
         "light_gray": "#11131c",
+        "gutter_fg": "#262831",
         "red": "#dd6777",
         "green": "#90ceaa",
         "yellow": "#ecd3a0",
@@ -47,7 +48,7 @@
         "find_highlight": "var(blue)",
         "foreground": "var(white)",
         "guide": "var(indent_guide)",
-        "gutter_foreground": "var(light_gray)",
+        "gutter_foreground": "var(gutter_fg)",
         "gutter": "var(black)",
         "highlight": "var(dark_gray)",
         "inactive_selection": "var(light_gray)",
@@ -116,7 +117,7 @@
         {
             "name": "Storage",
             "scope": "storage",
-            "foreground": "var(red)"
+            "foreground": "var(magenta)"
         },
         {
             "name": "Storage type",
